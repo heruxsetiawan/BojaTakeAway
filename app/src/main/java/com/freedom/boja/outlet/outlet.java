@@ -39,6 +39,7 @@ public class outlet extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.outlet);
+        //echo
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         myDb = new DataHelper(outlet.this);
         if (!prefs.getBoolean("firstTime", false)) {
