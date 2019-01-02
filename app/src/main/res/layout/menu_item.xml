@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:background="@color/putih">
+
+    <RelativeLayout
+        android:id="@+id/rl_atas"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/putih">
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:src="@drawable/tes" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/gambar"
+            android:hint="espresso"
+            android:maxLines="2"
+            android:textColor="@color/title"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/harga"
+            android:layout_toLeftOf="@+id/relativeLayout2"
+            android:layout_toRightOf="@+id/gambar"
+            android:hint=""
+            android:maxLines="2"
+            android:paddingTop="3dp"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/rp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_toRightOf="@+id/gambar"
+            android:maxLines="1"
+            android:paddingTop="3dp"
+            android:text="Rp"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_toRightOf="@+id/rp"
+            android:hint="111111"
+            android:maxLines="1"
+            android:paddingTop="3dp"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_qty_keranjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail"
+            android:layout_toRightOf="@+id/gambar"
+            android:hint="0"
+            android:paddingTop="3dp"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:textStyle="bold"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dp"
+
+
+            >
+
+
+            <RelativeLayout
+                android:id="@+id/btn_plus_keranjang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/gb_selector_tambah"
+                android:padding="5dp">
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="23dp"
+                    android:background="@drawable/selector"
+                    android:clickable="false"
+
+
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_minus_keranjang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/btn_plus_keranjang"
+                android:background="@drawable/gb_selector_1"
+                android:padding="5dp">
+
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="23dp"
+                    android:background="@drawable/selector2"
+
+                    android:clickable="false" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bawah"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_atas"
+        android:layout_marginLeft="10dp">
+
+
+        <EditText
+            android:id="@+id/add_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="Tulliskan Keterangan di sini"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:textSize="12dp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000" />
+</RelativeLayout>

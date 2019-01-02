@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_total"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        >
+
+
+
+        <RelativeLayout
+            android:background="@drawable/btn_to_keranjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/atas"
+            android:id="@+id/relativeLayout">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl_jumlah"
+                android:layout_marginTop="2dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/rp"
+                android:background="@drawable/lingkaran">
+                <TextView
+                    android:id="@+id/tv_jumlah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:gravity="top"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="10dp"
+                    android:textColor="#000"/>
+
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv_outlet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/rl_jumlah"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:gravity="top"
+                android:textSize="10dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/rp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv_outlet"
+                android:clickable="false"
+                android:gravity="top"
+                android:text="Rp"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+
+            <ImageButton
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/ic_keyboard_arrow_right_white_24dp"
+                android:clickable="false"
+                android:scaleType="fitEnd"
+                android:text="Button" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

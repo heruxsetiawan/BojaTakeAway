@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "693137680809",
+    "firebase_url": "https://bojatakeaway.firebaseio.com",
+    "project_id": "bojatakeaway",
+    "storage_bucket": "bojatakeaway.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693137680809:android:e3f577b7687590c3",
+        "android_client_info": {
+          "package_name": "com.freedom.boja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693137680809-2i36bmcn27n50ribkafebargvv91kdee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freedom.boja",
+            "certificate_hash": "b2a56709d164b52a84073e08b14eac30c506bdc1"
+          }
+        },
+        {
+          "client_id": "693137680809-3rjq7hhuv3dfmfj2q9gk6c9006dn2mh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-HE2vJYs1zN37pbkhBnqWluJTl23q1TI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693137680809-3rjq7hhuv3dfmfj2q9gk6c9006dn2mh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
