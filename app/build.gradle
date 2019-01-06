@@ -11,6 +11,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "api_1_1", "\"http://192.168.43.146/api/1_1.php\"")
         buildConfigField("String", "post", "\"http://192.168.43.146/api/post_client.php\"")
+        buildConfigField("String", "login", "\"http://192.168.43.146/api/login/login.php\"")
     }
     buildTypes {
         release {
@@ -29,8 +30,10 @@ dependencies {
     implementation 'com.loopj.android:android-async-http:1.4.9'
     implementation 'com.google.android.gms:play-services-location:16.0.0'
     implementation 'com.google.android.gms:play-services-places:16.0.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
     implementation 'com.google.firebase:firebase-core:16.0.6'
     implementation 'com.google.firebase:firebase-database:16.0.5'
+    implementation 'com.google.firebase:firebase-auth:16.1.0'
     implementation 'com.karumi:dexter:4.2.0'
     implementation 'com.jakewharton:butterknife:8.8.1'
     implementation 'com.google.android.gms:play-services-maps:16.0.0'

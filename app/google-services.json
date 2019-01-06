@@ -15,11 +15,19 @@
       },
       "oauth_client": [
         {
-          "client_id": "693137680809-2i36bmcn27n50ribkafebargvv91kdee.apps.googleusercontent.com",
+          "client_id": "693137680809-q2vq50t0llcuia3t3tdaes3cnrnfl776.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.freedom.boja",
             "certificate_hash": "b2a56709d164b52a84073e08b14eac30c506bdc1"
+          }
+        },
+        {
+          "client_id": "693137680809-r2tdr054010lcgsegu69vonjmnot929l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freedom.boja",
+            "certificate_hash": "b27faa44c6feb3d2643153cb228ede0282e4d7b6"
           }
         },
         {
@@ -29,7 +37,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA-HE2vJYs1zN37pbkhBnqWluJTl23q1TI"
+          "current_key": "AIzaSyAbQM9SLH97SB4ujr78zx9f4zreiU6JZpg"
         }
       ],
       "services": {
@@ -40,7 +48,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "693137680809-3rjq7hhuv3dfmfj2q9gk6c9006dn2mh2.apps.googleusercontent.com",
+              "client_id": "693137680809-dufaa96n3th0nm50717lq5nqlkh8m771.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

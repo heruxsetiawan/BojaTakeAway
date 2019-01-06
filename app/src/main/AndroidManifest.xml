@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".outlet.outlet">
+        <activity android:name=".login.Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,7 +40,8 @@
             android:value="@string/google_maps_key" />
 
         <activity android:name=".menu.menu" />
-        <activity android:name=".order.Order"></activity>
+        <activity android:name=".order.Order" />
+        <activity android:name=".outlet.outlet"></activity>
     </application>
 
 </manifest>
